@@ -290,12 +290,12 @@
                </div>
             </div>
          </div>
-         <div class="cart " data-toggle="modal" data-target="#myModal">
+         <div class="cart " data-toggle="modal" data-target="#whiteroseCart">
             <div v-if="cartItem.length>0" :class="cartAnima" class="cart_counting">{{cartItem.length}}</div>
             <img src="assets/img/cart.svg">
          </div>
          <!-- The About Modal -->
-         <div class="modal" id="aboutModal">
+         <div class="modal" id="whiteroseAbout">
             <div class="modal-dialog">
                <div class="modal-content">
                   <!-- Modal Header -->
@@ -329,7 +329,7 @@
          <div class="footer">
             <ul>
                <li><a href="javascript:void(0)"><i class="fa fa-home"></i>Home</a></li>
-               <li><a href="javascript:void(0)" data-toggle="modal" data-target="#aboutModal"><i class="fa fa-exclamation-circle"></i>About</a></li>
+               <li><a href="javascript:void(0)" data-toggle="modal" data-target="#whiteroseAbout"><i class="fa fa-exclamation-circle"></i>About</a></li>
                <li></li>
                <li><a href="tel:+919072062525"><i class="fa fa-phone"></i>Call</a></li>
                <li><a href="javascript:void(0)"  onclick="shareFunction()"><i class="fa fa-share-alt"></i> Share</a></li>
@@ -337,7 +337,7 @@
             </ul>
          </div>
          <!-- The Modal -->
-         <div class="modal" id="myModal" >
+         <div class="modal" id="whiteroseCart" >
             <div class="modal-dialog">
                <div class="modal-content">
                   <!-- Modal Header -->
