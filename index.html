@@ -773,10 +773,10 @@
                                  if(item.price>0){
                                  text = (text ? text : '') + (index + 1) + ') *' + item.name + variation_name + ' x ' + item.qty + '= ' + item.currency + (item.price * item.qty) + '*\n\n';
                                  }
-                                 // else
-                                 // {
-                                 //    text = (text ? text : '') + (index + 1) + ') *' + item.name + variation_name +'*\n\n'; 
-                                 // }
+                                 else
+                                 {
+                                    text = (text ? text : '') + (index + 1) + ') *' + item.name + variation_name + ' x ' + item.qty +'*\n\n'; 
+                                 }
                              }
          
          
