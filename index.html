@@ -770,13 +770,13 @@
                              function myFunction(item, index) {
                                  variation_name = item.is_variation_prd ? ('(' + item.variation_name + ' : ' + item.variation_unit + ')') : '';
                                  
-                                 if(item.price>0){
+                                 // if(item.price>0){
                                  text = (text ? text : '') + (index + 1) + ') *' + item.name + variation_name + ' x ' + item.qty + '= ' + item.currency + (item.price * item.qty) + '*\n\n';
-                                 }
-                                 else
-                                 {
-                                    text = (text ? text : '') + (index + 1) + ') *' + item.name + variation_name +'*\n\n'; 
-                                 }
+                                 // }
+                                 // else
+                                 // {
+                                 //    text = (text ? text : '') + (index + 1) + ') *' + item.name + variation_name +'*\n\n'; 
+                                 // }
                              }
          
          
@@ -786,10 +786,10 @@
          
          
                               if(vm.totalSum>0){
-                             message = '======🛒New Order🛒======\n' + text + '\n           *Total: ' + vm.currency + vm.totalSum + '*\n======================' + DeliveryType + '\n*Name:* ' + this.cus_name + '\n*Mobile:* ' + this.cus_phone + (vm.home_delivery_btnSelect == true ? '\n*Address:*\n' + this.cus_address+' \n*Pincode:*\n ' +this.cus_pincode : (vm.dining_delivery_btnSelect == true ? '\n*Table No:*\n' + this.cus_tableno : '')) + '\n*Order note :*\n' + this.cus_odernote + delivery_location + '\n======================\nPlease confirm order via reply';
+                             message = '======🛒 White Rose New Order 🛒======\n' + text + '\n           *Total: ' + vm.currency + vm.totalSum + '*\n======================' + DeliveryType + '\n*Name:* ' + this.cus_name + '\n*Mobile:* ' + this.cus_phone + (vm.home_delivery_btnSelect == true ? '\n*Address:*\n' + this.cus_address+' \n*Pincode:*\n ' +this.cus_pincode : (vm.dining_delivery_btnSelect == true ? '\n*Table No:*\n' + this.cus_tableno : '')) + '\n*Order note :*\n' + this.cus_odernote + delivery_location + '\n======================\nPlease confirm order via reply';
                               }else
                               {
-                            message = '======🛒New Order🛒======\n' + text + '\n======================' + DeliveryType + '\n*Name:* ' + this.cus_name + '\n*Mobile:* ' + this.cus_phone + (vm.home_delivery_btnSelect == true ? '\n*Address:*\n' + this.cus_address+' \n*Pincode:*\n ' +this.cus_pincode : (vm.dining_delivery_btnSelect == true ? '\n*Table No:*\n' + this.cus_tableno : '')) + '\n*Order note :*\n' + this.cus_odernote + delivery_location + '\n======================\nPlease confirm order via reply';
+                            message = '======🛒 White Rose New Order 🛒======\n' + text + '\n======================' + DeliveryType + '\n*Name:* ' + this.cus_name + '\n*Mobile:* ' + this.cus_phone + (vm.home_delivery_btnSelect == true ? '\n*Address:*\n' + this.cus_address+' \n*Pincode:*\n ' +this.cus_pincode : (vm.dining_delivery_btnSelect == true ? '\n*Table No:*\n' + this.cus_tableno : '')) + '\n*Order note :*\n' + this.cus_odernote + delivery_location + '\n======================\nPlease confirm order via reply';
                               }
                              window.location.href = 'whatsapp://send?phone=919072062525&text=' + encodeURIComponent(message);
          
