@@ -573,30 +573,30 @@
                      },
                      search(keyword)
                      {
-                         alert(vm.products.length);
-                         for(var i=0; i<vm.products.length; i++) {
-                             for(key in vm.products[i]) {
-                                 if(vm.products[i][key].indexOf(keyword)!=-1) {
-                                    results.push(this.products[i]);
-                                     console.log(vm.products[i]);
-                                 }
-                             }
-                         }
+                         // alert(vm.products.length);
+                         // for(var i=0; i<vm.products.length; i++) {
+                         //     for(key in vm.products[i]) {
+                         //         if(vm.products[i][key].indexOf(keyword)!=-1) {
+                         //           //  results.push(this.products[i]);
+                         //             console.log(vm.products[i]);
+                         //         }
+                         //     }
+                         // }
          
                          vm.prd_title='';
                          vm.products.forEach(function(i, obj) {
-                              var value = $(this).data('product_name').toString().toUpperCase();
+                             //  var value = $(this).data('product_name').toString().toUpperCase();
                              var value = i.name;
                              if(value.indexOf(keyword.charAt(0).toUpperCase() + keyword.slice(1)) > -1) {
-                                 $(this).fadeIn();
+                                 //$(this).fadeIn();
                                  i.show=1;
                                  i.tempVer = 'animate__animated animate__fadeIn';
                              }else{
                                  i.show=0;
                                  i.tempVer = '';
-                                 count--
-                                 $(this).fadeOut();
-                                 console.log(i.name);
+                                 //count--
+                                 // $(this).fadeOut();
+                                 // console.log(i.name);
          
                              }
                          });
@@ -666,14 +666,14 @@
                                  vm.totalSum=vm.totalSum-vm.cartItem[cart_index]['price'];
                                  vm.cartItem.splice(cart_index,1);
                                  vm.products[index]['cart']=0;
-                                 vm.totalSum=vm.totalSum-(this.cartItem[index]['price']*1);
-                                 this.totalSum=this.totalSum-this.products[index]['price'];
+                                 // vm.totalSum=vm.totalSum-(this.cartItem[index]['price']*1);
+                                 //this.totalSum=this.totalSum-this.products[index]['price'];
          
                                  vm.cartAnima='animate__animated animate__rubberBand';
                              }else {
                                  vm.cartItem[cart_index]['qty'] = parseInt(vm.cartItem[cart_index]['qty']) - 1;
                                  this.totalSum=this.totalSum-this.cartItem[cart_index]['price'];
-                                 vm.totalSum=vm.totalSum+(this.cartItem[index]['price']-1);
+                                 // vm.totalSum=vm.totalSum+(this.cartItem[index]['price']-1);
                              }
                          }
          
@@ -699,7 +699,7 @@
                          var cart_index=vm.cartItem.findIndex(data => data.pid==pid);
                          if(!(cart_index=='-1'))
                          {
-                             vm.totalSum=this.cartItem[index]['price']+vm.totalSum;
+                             // vm.totalSum=this.cartItem[index]['price']+vm.totalSum;
                              this.totalSum=this.totalSum+parseFloat(this.products[index]['price']);
                              vm.cartItem[cart_index]['qty'] = parseInt(vm.cartItem[cart_index]['qty']) + 1;
                          }
@@ -739,11 +739,11 @@
                      order()
                      {
          
-                         
-                        // home_delivery_btnSelect:true,
-                        takeaway_delivery_btnSelect:true
-                        // dining_delivery_btnSelect:false,
-         
+                         /*
+                          home_delivery_btnSelect:false,
+                     takeaway_delivery_btnSelect:false,
+                     dining_delivery_btnSelect:false,
+         */
                          if(vm.cus_name=='')
                          {
                              vm.formFillErrorMsg='Please enter name';
