@@ -979,3 +979,11 @@ nav.slick__arrow {
     text-align: center;
     border-radius: 25px;
 }
+.category-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    grid-column-gap: 10px;
+}

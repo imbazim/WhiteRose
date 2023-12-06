@@ -9,7 +9,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
       <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-      <link rel="stylesheet" href="assets/css/slick-theme.css">
+      <!-- <link rel="stylesheet" href="assets/css/slick-theme.css"> -->
       <link rel="stylesheet" href="assets/css/whiterose2.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
       <meta property="og:type" content="website"/>
@@ -73,9 +73,9 @@
             </div>
          </div>
          <div class="contant" style="background-color: #04004f;">
-            <div>
+            <div class="container">
                <!-- <i class="fa fa-arrow-circle-left" aria-hidden="true" style=" position: absolute;left: 5px;margin-top: 38px;z-index: 1;"></i> -->
-               <section class="regular">
+               <section class="category-grid">
                   <div class="category_box" @click="show_category_item(0,'All')">
                      <img src="assets/img/groceries.svg">
                      <span >
@@ -460,7 +460,7 @@
       <script src="assets/js/bootstrap.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
       <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> -->
       <script src="assets/js/whiterose1.js"></script>
       <script>
          var vm = new Vue({
@@ -824,61 +824,6 @@
              // If a pushstate has previously happened and the back button is clicked, hide any modals.
              $(window).on('popstate', function() {
                  $(".modal").modal('hide');
-             });
-         
-             $(".vertical-center-4").slick({
-                 dots: true,
-                 vertical: true,
-                 centerMode: true,
-                 slidesToShow: 4,
-                 slidesToScroll: 2
-             });
-             $(".vertical-center-3").slick({
-                 dots: true,
-                 vertical: true,
-                 centerMode: true,
-                 slidesToShow: 3,
-                 slidesToScroll: 3
-             });
-             $(".vertical-center-2").slick({
-                 dots: true,
-                 vertical: true,
-                 centerMode: true,
-                 slidesToShow: 2,
-                 slidesToScroll: 2
-             });
-             $(".vertical-center").slick({
-                 dots: true,
-                 vertical: true,
-                 centerMode: true,
-             });
-             $(".vertical").slick({
-                 dots: true,
-                 vertical: true,
-                 slidesToShow: 3,
-                 slidesToScroll: 3
-             });
-             $(".regular").slick({
-                 dots: true,
-                 infinite: true,
-                 slidesToShow: 4,
-                 slidesToScroll: 4
-             });
-             $(".center").slick({
-                 dots: true,
-                 infinite: true,
-                 centerMode: true,
-                 slidesToShow: 5,
-                 slidesToScroll: 3
-             });
-             $(".variable").slick({
-                 dots: true,
-                 infinite: true,
-                 variableWidth: true
-             });
-             $(".lazy").slick({
-                 lazyLoad: 'ondemand', // ondemand progressive anticipated
-                 infinite: true
              });
          });
          
