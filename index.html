@@ -76,10 +76,10 @@
             <div class="container">
                <!-- <i class="fa fa-arrow-circle-left" aria-hidden="true" style=" position: absolute;left: 5px;margin-top: 38px;z-index: 1;"></i> -->
                <section class="category-grid">
-                  <div class="category_box" @click="show_category_item(0,'All')">
+                  <div class="category_box" @click="show_category_item(0,'ALL ITEMS')">
                      <img src="assets/img/groceries.svg">
                      <span >
-                     All
+                     ALL ITEMS
                      </span>
                   </div>
                   <div class="category_box" @click="show_category_item(813,'NATURAL JUICE & MOJITOS')">
@@ -241,7 +241,7 @@
                      </div>
                   </div>
                </div>
-               <h2 >{{prd_title}}</h2>
+               <h2>{{prd_title}}</h2>
                <div class="col-6" v-for="(item, index) in products" :key="item.id" v-if="item.show==1">
                   <div class="product" :class="[{active1: item.cart>0},item.tempVer]" >
                      <span v-if="item.cart>0" class="counting" @click="removeCart(item.id)"><span class="fa fa-trash" aria-hidden="true"></span>
