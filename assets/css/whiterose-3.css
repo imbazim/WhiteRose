@@ -89,9 +89,9 @@ a:hover {
     color: #fff !important;
     display: block;
     padding: 11px 0;
-    width: 110px;
+    width: 115px !important;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 12px !important;
     cursor: pointer;
 }
 .btn-color2{
