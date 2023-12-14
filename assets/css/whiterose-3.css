@@ -491,10 +491,10 @@ ul, li {
     color: #5a5a5a;
     font-size: 13px;
     padding: 10px 15px;
-    transition: color .15s;
+    transition: all .15s;
 }
 .footer ul li a:hover {
-    background-color: #6756fc;
+    background-color: #28a745;
 }
 .footer ul li a i {
     color: #a6a6a6;
@@ -519,7 +519,7 @@ ul, li {
     text-align: center;
     z-index: 999;
     cursor: pointer;
-    transition: color .15s;
+    transition: all .15s;
     -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
     box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
