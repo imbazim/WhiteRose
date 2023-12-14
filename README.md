@@ -1,2 +1,4 @@
 # WhiteRose
-White Rose Catering and Events
+White Rose Events and Catering
+
+Follow: @imbazim
