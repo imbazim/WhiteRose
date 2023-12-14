@@ -510,7 +510,7 @@ ul, li {
     border-radius: 100%;
     width: 70px;
     height: 70px;
-    background-color: #313149;
+    background-color: #06004f;
     position: fixed;
     left: 0;
     right: 0;
@@ -520,9 +520,9 @@ ul, li {
     z-index: 999;
     cursor: pointer;
     transition: color .15s;
-    -webkit-box-shadow: 0px -1px 5px 0px rgba(0, 0, 0, 0.36);
-    -moz-box-shadow: 0px -1px 5px 0px rgba(0, 0, 0, 0.36);
-    box-shadow: 0px -1px 5px 0px rgba(0, 0, 0, 0.36);
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
 }
 .cart img {
     width: 30px;
@@ -532,7 +532,7 @@ ul, li {
     transform: translate(-50%, -50%);
 }
 .cart:hover {
-    background-color: #3425b7 !important;
+    background-color: #140a84;
 }
 .cart_counting {
     background-color: #28a745;
@@ -912,13 +912,13 @@ nav.slick__arrow {
 .main_color {
    /*color: #6756fc;
    */
-    color: #313149;
+    color: #06004f;
 }
 .main_color_bg {
     background-color: #06004f !important 
 }
 .btn_hover {
-    background-color: #3725d8;
+    background-color: #140a84;
 }
 .ad-model-body {
     position: relative;
