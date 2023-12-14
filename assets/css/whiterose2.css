@@ -132,10 +132,10 @@ ul, li {
 .logo {
     margin: 0 auto;
     text-align: center;
-    background-color: rgb(49, 49, 73);
+    background-color: #06004f;
     margin-bottom: 15px;
     padding: 10px 0;
-    border-bottom: 1px solid #9c9c9c;
+    border-bottom: 2px solid #e1bf90;
 }
 .logo img {
     width: 100px;
