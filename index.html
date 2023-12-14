@@ -269,11 +269,8 @@
                      </span>
                      <ul class="bottom">
                         <li   @click="addCartMinus(item.id)" v-if="item.cart>0 && item.price>0"><a :class="{'animate__animated animate__rubberBand': item.cart>0 }"  class="minus"><i class="fa fa-minus" aria-hidden="true"></i></a></li>
-                        <li v-if="item.cart<1"><a href="javascript:void(0)" @click="addCart(item.id)" class="btn main_color_bg" style="background-color: #313149;">
-                           <span style="color: #fff;">
-                           Add to Cart
-                           </span>
-                           </a>
+                        <li v-if="item.cart<1"><a href="javascript:void(0)" @click="addCart(item.id)" class="btn btn-success">
+                           Add to Cart</a>
                         </li>
                         <li v-if="item.cart>0 && item.price>0"><a style="width: 60px;"   href="javascript:void(0)"  class="btn btn-success">
                            <span style="color: #000000;">
