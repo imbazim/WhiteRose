@@ -441,9 +441,9 @@
                                     <label for="exampleInputPassword1" style="font-size: 15px;">Order note (<i>Eg: Delivery Time, Suggestions...</i>)</label>
                                     <textarea v-model="cus_odernote" style="font-size: 18px;"  maxlength="250"  class="form-control" placeholder="Order note" rows="5"></textarea>
                                  </div>
-                                 <button ref="close_modal_btn" type="button" class="btn btn-primary close_btn" data-dismiss="modal">Close</button>
-                                 <button type="button"  v-if="cartItem.length==0" class="btn btn-primary whatsapp_btn" disabled>Order On WhatsApp</button>
-                                 <button type="button"  v-if="!(cartItem.length==0)" @click="order" class="btn btn-primary whatsapp_btn">Order On WhatsApp</button>
+                                 <button ref="close_modal_btn" type="button" class="btn btn-info close_btn" data-dismiss="modal">Close</button>
+                                 <button type="button"  v-if="cartItem.length==0" class="btn btn-success whatsapp_btn" disabled><i class="fa fa-whatsapp" aria-hidden="true"></i> Order On WhatsApp</button>
+                                 <button type="button"  v-if="!(cartItem.length==0)" @click="order" class="btn btn-success whatsapp_btn"><i class="fa fa-whatsapp" aria-hidden="true"></i> Order On WhatsApp</button>
                               </form>
                            </div>
                         </div>
