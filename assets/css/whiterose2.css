@@ -484,9 +484,6 @@ ul, li {
 .footer ul li:nth-child(3) {
     margin-left: 0 
 }
-.footer ul li a:hover {
-    background-color: #6756fc;
-}
 .footer ul li:hover a, .footer ul li:hover i {
     color: #fff;
 }
@@ -494,6 +491,10 @@ ul, li {
     color: #5a5a5a;
     font-size: 13px;
     padding: 10px 15px;
+    transition: color .15s;
+}
+.footer ul li a:hover {
+    background-color: #6756fc;
 }
 .footer ul li a i {
     color: #a6a6a6;
@@ -505,41 +506,24 @@ ul, li {
 .footer ul li:last-child {
     border: none;
 }
-/*.cart {
-   */
-   /* border-radius: 100%;
-   */
-   /* width: 70px;
-   */
-   /* height: 70px;
-   */
-   /* background-color: #000;
-   */
-   /* position: fixed;
-   */
-   /* left: 0;
-   */
-   /* right: 0;
-   */
-   /* bottom: 0px;
-   */
-   /* margin: 0px auto;
-   */
-   /* text-align: center;
-   */
-   /* z-index: 999;
-   */
-   /* cursor: pointer;
-   */
-   /* -webkit-box-shadow: 0px -1px 5px 0px rgba(0, 0, 0, 0.36);
-   */
-   /* -moz-box-shadow: 0px -1px 5px 0px rgba(0, 0, 0, 0.36);
-   */
-   /* box-shadow: 0px -1px 5px 0px rgba(0, 0, 0, 0.36);
-   */
-   /*
+.cart {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    background-color: #313149;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    margin: 0px auto;
+    text-align: center;
+    z-index: 999;
+    cursor: pointer;
+    transition: color .15s;
+    -webkit-box-shadow: 0px -1px 5px 0px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0px -1px 5px 0px rgba(0, 0, 0, 0.36);
+    box-shadow: 0px -1px 5px 0px rgba(0, 0, 0, 0.36);
 }
-*/
 .cart img {
     width: 30px;
     position: absolute;
@@ -551,7 +535,7 @@ ul, li {
     background-color: #3425b7 !important;
 }
 .cart_counting {
-    background-color: #000;
+    background-color: #28a745;
     min-height: 23px;
     min-width: 23px;
     float: right;
@@ -924,23 +908,6 @@ nav.slick__arrow {
     padding: 5px;
     color: #000000;
     font-size: 12px;
-}
-.cart {
-    border-radius: 100%;
-    width: 70px;
-    height: 70px;
-    background-color: #313149;
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0px;
-    margin: 0px auto;
-    text-align: center;
-    z-index: 999;
-    cursor: pointer;
-    -webkit-box-shadow: 0px -1px 5px 0px rgba(0, 0, 0, 0.36);
-    -moz-box-shadow: 0px -1px 5px 0px rgba(0, 0, 0, 0.36);
-    box-shadow: 0px -1px 5px 0px rgba(0, 0, 0, 0.36);
 }
 .main_color {
    /*color: #6756fc;
