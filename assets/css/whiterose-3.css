@@ -86,25 +86,12 @@ a:hover {
     text-decoration: none;
 }
 .btn-color1{
-   /*background-color: #04d69b !important;
-   */
-    background-color: #34495e;
     color: #fff !important;
-    border: none !important;
-    border-radius: 25px 25px 25px 25px;
-    -moz-border-radius: 25px 25px 25px 25px;
-    -webkit-border-radius: 25px 25px 25px 25px;
     display: block;
     padding: 11px 0;
-    display: block;
-    width: 130px;
-   /*border: 2px solid #6756fc !important;
-   */
-    background: none;
+    width: 110px;
     font-weight: 500;
-    color: #6756fc;
-    font-size: 14px;
-    border: none;
+    font-size: 12px;
     cursor: pointer;
 }
 .btn-color2{
