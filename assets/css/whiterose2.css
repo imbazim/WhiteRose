@@ -149,7 +149,7 @@ ul, li {
 */
 /*.main_color_bg {
    */
-   /* background-color: #6756fc !important*/
+   /* background-color: #06004f !important*/
    /*
 }
 */
@@ -948,14 +948,10 @@ nav.slick__arrow {
     color: #313149;
 }
 .main_color_bg {
-    background-color: #313149 !important 
+    background-color: #06004f !important 
 }
 .btn_hover {
-    background-color: #3425b7;
-}
-.btn:focus, .btn:hover {
-    background-color: #3425b7 !important;
-    color: #fff !important;
+    background-color: #3725d8;
 }
 .ad-model-body {
     position: relative;
