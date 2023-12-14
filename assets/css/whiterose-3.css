@@ -151,7 +151,7 @@ ul, li {
     animation-duration: 1s;
     -webkit-animation-delay: 0.5s;
     animation-delay: 0.5s;
-    background: #6756fc 
+    background: #28a745;
 }
 .search_box button:hover .search_color {
     fill: #fff;
@@ -198,7 +198,7 @@ ul, li {
 .owl-dots {
     display: none;
 }
-.contant {
+.content {
     background-color: #f8f7fc;
     padding: 15px 0 60px 0;
 }
@@ -606,7 +606,7 @@ a.product_img img {
     fill: #000 
 }
 #Layer_1:hover {
-    fill: #6756fc 
+    fill: #28a745;
 }
 .delete svg {
     width: 15px;
