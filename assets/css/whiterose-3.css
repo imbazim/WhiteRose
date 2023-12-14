@@ -576,7 +576,7 @@ a.product_img img {
     border: 2px solid #4545453b 
 }
 .media-body h5 {
-    color: #6756fc;
+    color: #28a745;
     font-weight: bold;
     margin-bottom: 5px 
 }
@@ -602,15 +602,14 @@ a.product_img img {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
 }
-#Layer_1 {
-    fill: #000 
-}
-#Layer_1:hover {
-    fill: #28a745;
-}
 .delete svg {
     width: 15px;
     float: right;
+    fill: #dc3545;
+    cursor: pointer;
+}
+.delete svg:hover {
+    fill: #bb2d3b;
 }
 .sc-cart-summary-subtotal {
     text-align: right;
