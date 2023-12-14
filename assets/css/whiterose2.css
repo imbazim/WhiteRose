@@ -6,11 +6,11 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 body {
     line-height: 1;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
