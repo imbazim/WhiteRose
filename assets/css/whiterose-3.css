@@ -510,7 +510,7 @@ ul, li {
     border-radius: 100%;
     width: 70px;
     height: 70px;
-    background-color: #06004f;
+    background-color: #140a84;
     position: fixed;
     left: 0;
     right: 0;
@@ -520,9 +520,9 @@ ul, li {
     z-index: 999;
     cursor: pointer;
     transition: all .15s;
-    -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
-    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
 }
 .cart img {
     width: 30px;
@@ -532,7 +532,7 @@ ul, li {
     transform: translate(-50%, -50%);
 }
 .cart:hover {
-    background-color: #140a84;
+    background-color: #06004f;
 }
 .cart_counting {
     background-color: #ffc107;
