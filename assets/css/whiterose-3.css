@@ -335,19 +335,9 @@ ul, li {
     cursor: pointer;
 }
 .btn2:focus {
-    background-color: #3425b7 !important;
+    background-color: #1e7e34 !important;
     color: #fff !important;
 }
-/*.btn2:focus,*/
-/*.btn:hover {
-   */
-   /* background-color: #3425b7 !important;
-   */
-   /* color: #fff !important;
-   */
-   /*
-}
-*/
 .plus {
     margin-left: 5px;
     border:1px solid #ccc;
