@@ -392,14 +392,14 @@
                   <hr/>
                   <ul class="btn-list" v-if="home_delivery||takeaway_delivery||dining_delivery">
                      <li v-if="home_delivery"><a
-                        :style="home_delivery_btnSelect?'background:#28a745;':'background-color: #34495e;'"
-                        style="width: 110px;font-size: 12px;" class="sc-cart-clear btn-color1" @click="home_delivery_btnSelect=true;takeaway_delivery_btnSelect=false;dining_delivery_btnSelect=false;">Home Delivery</a></li>
+                        :class="home_delivery_btnSelect?'btn-success':'btn-primary'"
+                        style="width: 110px;font-size: 12px;" class="btn sc-cart-clear btn-color1" @click="home_delivery_btnSelect=true;takeaway_delivery_btnSelect=false;dining_delivery_btnSelect=false;">Home Delivery</a></li>
                      <li v-if="takeaway_delivery"><a
                         :style="takeaway_delivery_btnSelect?'background:#28a745;':'background-color: #34495e;'"
-                        style="width: 110px;font-size: 12px;" class="sc-cart-clear  btn-color1" @click="home_delivery_btnSelect=false;takeaway_delivery_btnSelect=true;dining_delivery_btnSelect=false;">Take Away</a></li>
+                        style="width: 110px;font-size: 12px;" class="btn sc-cart-clear  btn-color1" @click="home_delivery_btnSelect=false;takeaway_delivery_btnSelect=true;dining_delivery_btnSelect=false;">Take Away</a></li>
                      <li v-if="dining_delivery"><a
                         :style="dining_delivery_btnSelect?'background:#28a745;':'background-color: #34495e;'"
-                        style="width: 110px;font-size: 12px;" class="sc-cart-clear  btn-color1" @click="home_delivery_btnSelect=false;takeaway_delivery_btnSelect=false;dining_delivery_btnSelect=true;">Dining</a></li>
+                        style="width: 110px;font-size: 12px;" class="btn sc-cart-clear  btn-color1" @click="home_delivery_btnSelect=false;takeaway_delivery_btnSelect=false;dining_delivery_btnSelect=true;">Dining</a></li>
                   </ul>
                   <div class="customer-details" v-show="home_delivery_btnSelect||takeaway_delivery_btnSelect||dining_delivery_btnSelect">
                      <div class="container">
