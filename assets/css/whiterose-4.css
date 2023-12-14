@@ -212,7 +212,8 @@ ul, li {
     -moz-border-radius: 10px;
     border-radius: 10px;
     width: 100%;
-    /* height: 110px; */
+   /* height: 110px;
+    */
     padding: 8px;
     text-align: center;
     font-size: 13px;
@@ -416,11 +417,11 @@ ul, li {
 }
 .footer ul li a:hover, .footer ul li a:focus, .footer ul li a:active {
    /*color: white;
-   */
+    */
    /*background-color: #6756fc;
-   */
+    */
    /*display: block;
-   */
+    */
 }
 .footer ul li:nth-child(2) {
     border: none;
@@ -551,7 +552,7 @@ a.product_img img {
 }
 .media img {
    /*width: 100px;
-   */
+    */
     width: 45px;
     border: 2px solid #4545453b 
 }
@@ -565,7 +566,7 @@ a.product_img img {
 }
 .cart_item_summary {
    /*margin-top: 10px;
-   */
+    */
     margin-top: -12px;
     float: right;
     text-align: right;
@@ -610,7 +611,7 @@ a.product_img img {
     display: block;
     width: 130px;
    /*border: 2px solid #6756fc !important;
-   */
+    */
     background: none;
     font-weight: 500;
     color: #6756fc;
@@ -789,22 +790,22 @@ nav.slick__arrow {
 }
 /*overlay*/
 .overlay{
-   position: fixed;
-   z-index:99999;
+    position: fixed;
+    z-index:99999;
     left: 0;
-   right: 0;
-   bottom: 0;
-   top: 0;
-   background: rgba(255,255,255,0.6);
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(255,255,255,0.6);
     display: flex;
-   justify-content: center;
-   align-items: center;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-   height: 100%;
-   text-align: center;
+    height: 100%;
+    text-align: center;
 }
 .overlay p{
-   color: #ff0000;
+    color: #ff0000;
 }
 .wrapper.ovr{
     -webkit-filter: blur(6px);
@@ -829,7 +830,7 @@ nav.slick__arrow {
 }
 .main_color {
    /*color: #6756fc;
-   */
+    */
     color: #06004f;
 }
 .main_color_bg {
@@ -842,7 +843,7 @@ nav.slick__arrow {
     position: relative;
     width: 100%;
    /*max-width: 400px;
-   */
+    */
 }
 .ad-model-body .btn1 {
     position: absolute;
