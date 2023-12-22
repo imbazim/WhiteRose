@@ -22,7 +22,22 @@ $(document).on('ready', function() {
     });
 
     $(".category_box").click(function() {
-        $("body").animate({ scrollTop: $('.products-scroll').offset().top - 30 }, 'slow');
+        $("html, body").animate({ 
+            scrollTop: $('.products-scroll').offset().top - 30 
+        }, 1000);
+    });
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop()) {
+            $('#toTop').fadeIn();
+        } else {
+            $('#toTop').fadeOut();
+        }
+    });
+    $("#toTop").click(function() {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 1000);
     });
 });
 
