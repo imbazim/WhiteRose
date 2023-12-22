@@ -78,7 +78,7 @@
             <div class="container">
                <!-- <i class="fa fa-arrow-circle-left" aria-hidden="true" style=" position: absolute;left: 5px;margin-top: 38px;z-index: 1;"></i> -->
                <section class="category-grid">
-                  <div class="category_box">
+                  <div class="category_box" @click="show_category_item(0,'All')">
                      <img src="uploads/categories/all-items.webp">
                      <span >
                      ALL ITEMS
@@ -453,9 +453,9 @@
                </div>
             </div>
          </div>
-         <button class="btn btn-primary" id="toTop">
+         <!-- <button class="btn btn-primary" id="toTop">
             <i class="fa fa-angle-up"></i>
-         </button>
+         </button> -->
       </div>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.12/vue.min.js"></script>
       <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
