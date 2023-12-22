@@ -23,8 +23,8 @@ $(document).on('ready', function() {
 
     $(".category_box").click(function() {
         $("html, body").animate({ 
-            scrollTop: $('.products-scroll').offset().top - 30 
-        }, 1000);
+            scrollTop: $('.products-scroll').offset().top - 20 
+        }, 800);
     });
 
     $(window).scroll(function() {
