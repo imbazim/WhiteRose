@@ -872,7 +872,8 @@ nav.slick__arrow {
 #toTop {
     display: none;
     position: fixed;
-    bottom: 20px;
+    max-width: 420px;
+    bottom: 18%;
     right: 30px;
     z-index: 99;
     border: none;
