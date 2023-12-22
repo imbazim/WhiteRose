@@ -20,8 +20,9 @@ $(document).on('ready', function() {
     $(window).on('popstate', function() {
         $(".modal").modal('hide');
     });
+
+    $(".category_box").click(function() {
+        $("body").animate({ scrollTop: $('.products-scroll').offset().top - 30 }, 'slow');
+    });
 });
 
-$(".category_box").click(function() {
-    $("body").animate({ scrollTop: $('.products-scroll').offset().top - 30 }, 'slow');
-});
