@@ -22,6 +22,3 @@ $(document).on('ready', function() {
     });
 });
 
-$(".category_box").click(function() {
-   $("html, body").animate({ scrollTop: $('.product_row1').offset().top - 30 }, 'slow');
-});
