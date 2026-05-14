@@ -5999,6 +5999,8 @@ var vm = new Vue({
     }
 });
 
+console.log(atob("QGltYmF6aW0gLSBodHRwczovL2ltYmF6aW0uaXMtYS5kZXY="));
+
 function shareFunction()
 {
     window.location.href='whatsapp://send?text=' + encodeURIComponent('https://imbazim.github.io\/WhiteRose/');
