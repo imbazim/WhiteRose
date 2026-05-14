@@ -1,4 +1,4 @@
 # WhiteRose
 White Rose Events and Catering
 
-Follow: @imbazim
+Follow: [@imbazim](https://instagram.com/imbazim)
